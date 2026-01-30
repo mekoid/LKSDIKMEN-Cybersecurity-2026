@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  gopher-tunnels:
+    build: .
+    ports:
+      - "13387:13387"
+    restart: unless-stopped
